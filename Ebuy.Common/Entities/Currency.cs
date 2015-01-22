@@ -35,10 +35,10 @@ namespace Ebuy
     public class Currency : IEquatable<Currency>
     {
         public static IDictionary<char, string> CurrencyCodesBySymbol = new Dictionary<char, string>() {
-                    { '€', "EUR" },
-                    { '£', "GBP" },
-                    { '¥', "JPY" },
-                    { '$', "USD" },
+                    { '€',"EUR" },
+                    { '?', "GBP" },
+                    { '?', "JPY" },
+                    { '$', "USD" }
                 };
 
         public string Code { get; private set; }
